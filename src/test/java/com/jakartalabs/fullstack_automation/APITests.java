@@ -32,7 +32,7 @@ public class APITests extends BaseAPITest {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 3)
 	public void testloginAPIWithIncorrectCredentials() {
 
 		String loginPayload = DataUtils.getDataFromExcel("Payloads", "LoginPayload");
